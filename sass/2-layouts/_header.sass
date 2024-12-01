@@ -7,8 +7,6 @@
     background-color: #353e42
     padding: 15px
     text-align: center
-
-
     a
         color: white
         font-size: 2rem
@@ -23,18 +21,28 @@
 
 .header-bottom
     background-color: v.$beige
-    padding: 15px
+    padding: 25px
+    background-image: url(/imgs/beatboxer.png) 
+    background-position: right bottom
+    background-repeat: no-repeat
+    height: 250px
     .nav-bar
         display: flex
         align-items: center
         justify-content: center
         #barra-pesquisa
-            width: 250px
+            width: 70%
+            max-width: 400px
             height: 40px
             border: none
             border-radius: 15px
             border-right: solid 0px
             padding-left: 10px 
+            outline: none
+            font-size: 1.2em
+            color: v.$very-dark-green
+            font-family: v.$font
+            border: solid 1px v.$very-dark-green
         .lupa-container
             height: 40px
             background-color: white 
@@ -42,9 +50,16 @@
             padding: 10px
             border-top-right-radius: 15px
             border-bottom-right-radius: 15px
+            border: solid 1px v.$very-dark-green
+            background-color: v.$very-dark-green
             .lupa
                 width: 20px
-                
+                filter: opacity(0.3)
+                filter: invert(1)
+                &:hover
+                    cursor: pointer
+                    filter: opacity(0.6)
+        
             
             
 
