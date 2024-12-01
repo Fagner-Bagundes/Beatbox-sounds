@@ -116,7 +116,6 @@ ul {
 .mid {
   background-color: #f0e8cf;
   color: #424b4d;
-  padding: 10px 10px 10px 10px;
   border-radius: 15px;
   box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
 }
@@ -126,12 +125,57 @@ ul {
 .mid .balls {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 .mid .balls .ball {
   width: 10px;
   height: 10px;
   border: solid 2px black;
   border-radius: 50%;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+  justify-content: center;
+}
+
+.btn-container {
+  height: 100px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: #a6b2a2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 4px 6px 1px #000000;
+  gap: 10px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bolder;
+  position: relative;
+}
+.btn-container .btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.337254902);
+  background-color: rgba(255, 0, 0, 0.7058823529);
+  border: solid 3px #000;
+}
+.btn-container .balls {
+  position: absolute;
+  top: -3px;
+  display: flex;
+  gap: 55px;
+}
+.btn-container .balls .ball {
+  width: 7px;
+  height: 7px;
+  border: inset 4px black;
 }
 
 /*# sourceMappingURL=main.css.map */
