@@ -163,7 +163,7 @@ ul {
   height: 100px;
   width: 80px;
   border-radius: 15px;
-  background-image: url(../../imgs/botao.png);
+  background-image: url(../imgs/botao.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
