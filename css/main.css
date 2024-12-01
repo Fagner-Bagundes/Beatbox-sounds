@@ -44,8 +44,7 @@ ul {
 .header-bottom {
   background-color: #30383a;
   padding: 25px;
-  margin-bottom: -1px;
-  height: 230px;
+  margin-bottom: -25px;
 }
 .header-bottom .nav-bar {
   display: flex;
@@ -86,11 +85,14 @@ ul {
   filter: opacity(0.6);
 }
 .header-bottom .beatboxer {
-  background-image: url(/imgs/beatboxer.png);
   height: 100%;
-  background-position: right bottom;
-  background-repeat: no-repeat;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.header-bottom .beatboxer img {
+  width: 50%;
 }
 
 .main {
@@ -110,20 +112,18 @@ ul {
 }
 
 .MIDs {
-  width: 90%;
+  width: 100%;
 }
 
 .mid {
-  background: linear-gradient(to bottom, #0d5469, #3c8b99);
-  border: solid 3px black;
-  color: white;
+  background-color: #bdb9a9;
+  color: #30383a;
   border-radius: 15px;
   box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
 }
 .mid h2 {
   font-size: 2em;
   padding: 5px;
-  margin-top: -30px;
 }
 .mid .balls {
   display: flex;
@@ -152,40 +152,48 @@ ul {
 .botoes {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  padding: 15px;
+  gap: 13px;
+  padding: 8px;
   justify-content: center;
 }
 
 .btn-container {
+  margin-bottom: 20px;
   height: 100px;
   width: 80px;
   border-radius: 15px;
-  background-color: #3c8b99;
+  background-image: url(/imgs/botao.png);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 1px 4px 6px 1px #000000;
-  gap: 10px;
+  gap: 19px;
   color: white;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bolder;
-  position: relative;
+}
+.btn-container p {
+  margin-bottom: -13px;
+  color: #30383a;
 }
 .btn-container .btn {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
   border-radius: 50%;
   box-shadow: 1px 4px 2px 1px rgba(0, 0, 0, 0.337254902);
   background-color: #e97272;
-  border: solid 3px #000;
+  border: 1px solid rgba(0, 0, 0, 0.6039215686);
+  box-shadow: inset 2px 3px 2px 1px #fff;
 }
 .btn-container .balls {
   position: absolute;
   top: -3px;
   display: flex;
   gap: 55px;
+  display: none;
 }
 .btn-container .balls .ball {
   width: 7px;
