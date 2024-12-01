@@ -105,26 +105,23 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.main section {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 
 .MIDs {
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .mid {
-  background-color: #bdb9a9;
-  color: #393f41;
+  background-color: #bbb59b;
   border-radius: 15px;
   box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
 }
 .mid h2 {
-  margin-top: -45px;
+  color: #3a3636;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
   font-size: 2.5em;
-  font-family: "Sour Gummy";
   padding: 5px;
 }
 .mid .balls {
@@ -145,6 +142,7 @@ ul {
 .apresentation h1 {
   font-family: "Sour Gummy";
   font-size: 2em;
+  margin-bottom: 15px;
 }
 .apresentation p {
   font-family: "Sour Gummy";
