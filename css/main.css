@@ -1,3 +1,72 @@
+html {
+  font-size: 14px;
+}
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+}
+
+i {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-top {
+  background-color: #353e42;
+  padding: 15px;
+  text-align: center;
+}
+.header-top a {
+  color: white;
+  font-size: 2rem;
+  font-family: "Sour Gummy";
+}
+.header-top-links {
+  display: flex;
+  gap: 20px;
+  color: #efe7ce;
+  font-size: 1em;
+  display: none;
+}
+
+.header-bottom {
+  background-color: #efe7ce;
+  padding: 15px;
+}
+.header-bottom .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-bottom .nav-bar #barra-pesquisa {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  border-right: solid 0px;
+  padding-left: 10px;
+}
+.header-bottom .nav-bar .lupa-container {
+  height: 40px;
+  background-color: white;
+  margin-left: -20px;
+  padding: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.header-bottom .nav-bar .lupa-container .lupa {
+  width: 20px;
+}
 
 /*# sourceMappingURL=main.css.map */
