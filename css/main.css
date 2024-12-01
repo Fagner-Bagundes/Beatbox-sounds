@@ -23,9 +23,10 @@ ul {
 }
 
 .header-top {
-  background-color: #353e42;
+  background-color: #424b4d;
   padding: 15px;
   text-align: center;
+  margin-bottom: -1px;
 }
 .header-top a {
   color: white;
@@ -35,18 +36,16 @@ ul {
 .header-top-links {
   display: flex;
   gap: 20px;
-  color: #efe7ce;
+  color: #424b4d;
   font-size: 1em;
   display: none;
 }
 
 .header-bottom {
-  background-color: #efe7ce;
+  background-color: #424b4d;
   padding: 25px;
-  background-image: url(/imgs/beatboxer.png);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  height: 250px;
+  margin-bottom: -1px;
+  height: 230px;
 }
 .header-bottom .nav-bar {
   display: flex;
@@ -63,9 +62,9 @@ ul {
   padding-left: 10px;
   outline: none;
   font-size: 1.2em;
-  color: #353e44;
+  color: #424b4d;
   font-family: "Sour Gummy";
-  border: solid 1px #353e44;
+  border: solid 1px #424b4d;
 }
 .header-bottom .nav-bar .lupa-container {
   height: 40px;
@@ -74,8 +73,8 @@ ul {
   padding: 10px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  border: solid 1px #353e44;
-  background-color: #353e44;
+  border: solid 1px #424b4d;
+  background-color: #5b7175;
 }
 .header-bottom .nav-bar .lupa-container .lupa {
   width: 20px;
@@ -85,6 +84,27 @@ ul {
 .header-bottom .nav-bar .lupa-container .lupa:hover {
   cursor: pointer;
   filter: opacity(0.6);
+}
+.header-bottom .beatboxer {
+  background-image: url(/imgs/beatboxer.png);
+  height: 100%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.main {
+  background-color: #424b4d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.main section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

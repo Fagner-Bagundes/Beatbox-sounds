@@ -4,9 +4,10 @@
 
     
 .header-top
-    background-color: #353e42
+    background-color: v.$very-dark-green
     padding: 15px
     text-align: center
+    margin-bottom: -1px
     a
         color: white
         font-size: 2rem
@@ -15,17 +16,16 @@
     &-links
         display: flex
         gap: 20px
-        color: v.$beige
+        color: v.$very-dark-green
         font-size: 1em
         display: none
 
 .header-bottom
-    background-color: v.$beige
+    background-color: v.$very-dark-green
     padding: 25px
-    background-image: url(/imgs/beatboxer.png) 
-    background-position: right bottom
-    background-repeat: no-repeat
-    height: 250px
+    margin-bottom: -1px
+    height: 230px
+
     .nav-bar
         display: flex
         align-items: center
@@ -51,7 +51,7 @@
             border-top-right-radius: 15px
             border-bottom-right-radius: 15px
             border: solid 1px v.$very-dark-green
-            background-color: v.$very-dark-green
+            background-color: v.$dark-green
             .lupa
                 width: 20px
                 filter: opacity(0.3)
@@ -59,8 +59,14 @@
                 &:hover
                     cursor: pointer
                     filter: opacity(0.6)
-        
-            
+    .beatboxer
+        background-image: url(/imgs/beatboxer.png) 
+        height: 100%
+        background-position: right bottom
+        background-repeat: no-repeat
+        width: 100%
+
+
             
 
 
