@@ -100,11 +100,38 @@ ul {
   flex-direction: column;
   gap: 30px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .main section {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.MIDs {
+  width: 90%;
+}
+
+.mid {
+  background-color: #f0e8cf;
+  color: #424b4d;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
+}
+.mid p {
+  font-size: 1.1rem;
+}
+.mid .balls {
+  display: flex;
+  justify-content: space-between;
+}
+.mid .balls .ball {
+  width: 10px;
+  height: 10px;
+  border: solid 2px black;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
