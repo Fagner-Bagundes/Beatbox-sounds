@@ -23,7 +23,7 @@ ul {
 }
 
 .header-top {
-  background-color: #30383a;
+  background-color: #393f41;
   padding: 15px;
   text-align: center;
   margin-bottom: -1px;
@@ -36,13 +36,13 @@ ul {
 .header-top-links {
   display: flex;
   gap: 20px;
-  color: #30383a;
+  color: #393f41;
   font-size: 1em;
   display: none;
 }
 
 .header-bottom {
-  background-color: #30383a;
+  background-color: #393f41;
   padding: 25px;
   margin-bottom: -25px;
 }
@@ -61,9 +61,9 @@ ul {
   padding-left: 10px;
   outline: none;
   font-size: 1.2em;
-  color: #30383a;
+  color: #393f41;
   font-family: "Sour Gummy";
-  border: solid 1px #30383a;
+  border: solid 1px #393f41;
 }
 .header-bottom .nav-bar .lupa-container {
   height: 40px;
@@ -72,7 +72,7 @@ ul {
   padding: 10px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  border: solid 1px #30383a;
+  border: solid 1px #393f41;
   background-color: #3c8b99;
 }
 .header-bottom .nav-bar .lupa-container .lupa {
@@ -96,7 +96,7 @@ ul {
 }
 
 .main {
-  background-color: #30383a;
+  background-color: #393f41;
   color: white;
   display: flex;
   flex-direction: column;
@@ -117,12 +117,14 @@ ul {
 
 .mid {
   background-color: #bdb9a9;
-  color: #30383a;
+  color: #393f41;
   border-radius: 15px;
   box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
 }
 .mid h2 {
-  font-size: 2em;
+  margin-top: -45px;
+  font-size: 2.5em;
+  font-family: "Sour Gummy";
   padding: 5px;
 }
 .mid .balls {
@@ -176,7 +178,7 @@ ul {
 }
 .btn-container p {
   margin-bottom: -13px;
-  color: #30383a;
+  color: #393f41;
 }
 .btn-container .btn {
   width: 40px;
