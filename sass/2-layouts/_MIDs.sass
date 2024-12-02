@@ -1,15 +1,25 @@
 @use '../1-base/_variables' as v
-@use '../1-base/_breakPoints'
+@use '../1-base/_breakPoints' as m
     
 .MIDs
-    width: 100% 
+    width: 90% 
     margin-bottom: 50px
-    max-width: 400px
+    max-width: 600px
+
+    @include m.PC
+    max-width: 1500px
+
 .mid
     background-color: #bbb59b
     background: linear-gradient(to bottom, #bbb59b,#3a3636 )
     border-radius: 15px
     box-shadow: 1px 4px 6px 1px #000000a1
+
+    @include m.PC
+        width: 53%
+        max-width: 900px
+        background-color: red
+        
     h2
         color: #3a3636
         border-radius: 20px

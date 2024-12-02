@@ -1,0 +1,29 @@
+@use '../1-base/_variables' as v
+@use '../1-base/breakPoints' as mixins
+
+.hero-1
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    
+    @include mixins.PC
+        flex-direction: row
+        gap: 10%
+        width: 100%
+        padding: 1px
+        padding-inline: 50px
+
+    .beatboxer
+        margin-bottom: 15px
+        width: 450px
+
+    .apresentation
+        font-family: v.$font
+        font-size: 1em
+
+
+       
+        
+
+        

@@ -84,21 +84,9 @@ ul {
   cursor: pointer;
   filter: opacity(0.6);
 }
-.header-bottom .beatboxer {
-  height: 100%;
-  max-width: 500px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
-  margin: auto;
-}
-.header-bottom .beatboxer img {
-  width: 50%;
-  max-width: 500px;
-}
 
 .main {
+  padding-block: 30px;
   background-color: #393f41;
   color: white;
   display: flex;
@@ -108,18 +96,38 @@ ul {
   justify-content: center;
   align-items: center;
 }
-
-.MIDs {
+.main .beatboxer {
+  height: 100%;
+  max-width: 500px;
   width: 100%;
-  margin-bottom: 50px;
-  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin: auto;
+}
+.main .beatboxer img {
+  width: 50%;
+  max-width: 500px;
 }
 
+.MIDs {
+  width: 90%;
+  margin-bottom: 50px;
+  max-width: 600px;
+  max-width: 1500px;
+}
 .mid {
   background-color: #bbb59b;
   background: linear-gradient(to bottom, #bbb59b, #3a3636);
   border-radius: 15px;
   box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
+}
+@media (min-width: 1024px) {
+  .mid {
+    width: 53%;
+    max-width: 900px;
+    background-color: red;
+  }
 }
 .mid h2 {
   color: #3a3636;
@@ -151,6 +159,30 @@ ul {
 .apresentation p {
   font-family: "Sour Gummy";
   font-size: 1.3em;
+}
+
+.hero-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .hero-1 {
+    flex-direction: row;
+    gap: 10%;
+    width: 100%;
+    padding: 1px;
+    padding-inline: 50px;
+  }
+}
+.hero-1 .beatboxer {
+  margin-bottom: 15px;
+  width: 450px;
+}
+.hero-1 .apresentation {
+  font-family: "Sour Gummy";
+  font-size: 1em;
 }
 
 .botoes {
