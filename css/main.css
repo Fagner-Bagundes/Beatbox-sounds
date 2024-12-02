@@ -12,6 +12,14 @@ html {
   font-family: "Arial";
 }
 
+h1 {
+  font-family: "Sour Gummy";
+}
+
+p {
+  font-family: "Sour Gummy";
+}
+
 i {
   color: red;
 }
@@ -77,6 +85,7 @@ main {
   width: 50%;
   border-radius: 25px;
   background-color: #20212a;
+  box-shadow: 1px 2px 6px black;
 }
 .MIDI h1 {
   padding: 5px;
@@ -108,12 +117,18 @@ main {
 
 .apresentation {
   border-bottom: 2px solid black;
-  width: 60%;
-  display: flex;
-  justify-content: center;
+  width: 660px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+.apresentation p {
+  width: 250px;
+  font-size: 1.3em;
+  text-align: center;
+  margin: auto;
 }
 .apresentation img {
-  width: 50%;
+  width: 100%;
 }
 
 .fundo {
