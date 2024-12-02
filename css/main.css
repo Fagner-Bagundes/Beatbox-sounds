@@ -10,6 +10,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: "Arial";
+  overflow: hidden;
 }
 
 h1 {
@@ -108,10 +109,12 @@ main {
 }
 
 .title {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
-  font-family: "Sour Gummy";
   padding: 25px;
+}
+.title h1 {
+  font-family: "Rampart One";
 }
 
 .apresentation {
@@ -134,7 +137,31 @@ main {
   margin: 0px;
   position: absolute;
   width: 100%;
-  margin-top: -263px;
+  margin-top: -194px;
+}
+
+main {
+  position: relative;
+}
+main .beat {
+  position: absolute;
+  left: 100px;
+  width: 130px;
+  top: 50px;
+}
+main .beat1 {
+  filter: invert(0.1);
+}
+main .beat2 {
+  filter: invert(0.1);
+  left: 20px;
+  top: 250px;
+}
+main .beat3 {
+  font-size: 3em;
+  width: 240px;
+  top: 400px;
+  transform: rotate(-50deg);
 }
 
 /*# sourceMappingURL=main.css.map */
