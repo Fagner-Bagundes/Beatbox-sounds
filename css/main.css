@@ -23,8 +23,8 @@ ul {
 }
 
 .header-top {
-  background-color: #393f41;
-  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.9568627451);
+  padding: 20px;
   text-align: center;
   margin-bottom: -1px;
 }
@@ -117,16 +117,16 @@ ul {
 
 .mid {
   background-color: #bbb59b;
+  background: linear-gradient(to bottom, #bbb59b, #3a3636);
   border-radius: 15px;
   box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.631372549);
 }
 .mid h2 {
   color: #3a3636;
-  padding: 10px;
   border-radius: 20px;
   margin: auto;
+  margin-bottom: 16px;
   font-size: 2.5em;
-  padding: 5px;
 }
 .mid .balls {
   display: flex;
@@ -218,7 +218,7 @@ ul {
   gap: 2px;
 }
 .categories-container button {
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Sour Gummy";
   background-color: rgba(0, 0, 0, 0.5960784314);
   color: white;
@@ -229,12 +229,13 @@ ul {
   justify-content: start;
   align-items: center;
   padding: 10px;
-  height: 50px;
+  height: 60px;
 }
 .categories-container button .arrow-up {
   margin-right: 10px;
   height: 20px;
   filter: invert(1);
+  transform: rotate(-90deg);
 }
 .categories-container .sounds-category {
   width: 70%;
