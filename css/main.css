@@ -86,13 +86,16 @@ ul {
 }
 .header-bottom .beatboxer {
   height: 100%;
+  max-width: 500px;
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 5px;
+  margin: auto;
 }
 .header-bottom .beatboxer img {
   width: 50%;
+  max-width: 500px;
 }
 
 .main {
