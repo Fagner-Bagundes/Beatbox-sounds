@@ -4,9 +4,14 @@
     
 .header-top
     background-color: #000000f4
+    background: linear-gradient(to bottom, #000000da, #000000e2)
     padding: 20px
     text-align: center
     margin-bottom: -1px
+
+    @include m.PC
+        text-align: start
+        padding-left: 30px
     a
         color: white
         font-size: 2rem
@@ -42,6 +47,7 @@
             color: v.$very-dark-green
             font-family: v.$font
             border: solid 1px v.$very-dark-green
+            
         .lupa-container
             height: 40px
             background-color: white 
@@ -49,7 +55,6 @@
             padding: 10px
             border-top-right-radius: 15px
             border-bottom-right-radius: 15px
-            border: solid 1px v.$very-dark-green
             background-color: v.$dark-green
             .lupa
                 width: 20px

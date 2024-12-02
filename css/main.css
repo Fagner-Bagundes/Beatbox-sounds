@@ -24,9 +24,16 @@ ul {
 
 .header-top {
   background-color: rgba(0, 0, 0, 0.9568627451);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8549019608), rgba(0, 0, 0, 0.8862745098));
   padding: 20px;
   text-align: center;
   margin-bottom: -1px;
+}
+@media (min-width: 1024px) {
+  .header-top {
+    text-align: start;
+    padding-left: 30px;
+  }
 }
 .header-top a {
   color: white;
@@ -72,7 +79,6 @@ ul {
   padding: 10px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  border: solid 1px #393f41;
   background-color: #3c8b99;
 }
 .header-bottom .nav-bar .lupa-container .lupa {
@@ -267,6 +273,10 @@ ul {
   align-items: center;
   padding: 10px;
   height: 60px;
+}
+.categories-container button:hover {
+  cursor: pointer;
+  background-color: rgba(32, 32, 32, 0.5490196078);
 }
 .categories-container button .arrow-up {
   margin-right: 10px;
