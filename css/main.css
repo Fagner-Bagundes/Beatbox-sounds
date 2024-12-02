@@ -38,12 +38,11 @@ header {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
-  background-color: #20212a;
 }
 header a {
-  font-size: 2em;
+  font-size: 3em;
   font-family: "Sour Gummy";
-  color: white;
+  color: #20212a;
 }
 header nav input {
   font-family: "Sour Gummy";
@@ -58,7 +57,6 @@ header nav input {
 header nav .link1 {
   color: #b8b8b8;
   background-color: #20212a;
-  border: solid 1px #b8b8b8;
 }
 header nav .link2 {
   color: #b8b8b8;
@@ -102,6 +100,7 @@ main {
 .MIDI .botoes .arrow {
   width: 50px;
   height: 50px;
+  filter: invert(1);
 }
 .MIDI .botoes img {
   width: 70%;
