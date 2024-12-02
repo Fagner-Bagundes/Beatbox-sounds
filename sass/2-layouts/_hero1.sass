@@ -9,14 +9,17 @@
     
     @include mixins.PC
         flex-direction: row
-        gap: 10%
+        gap: 5%
         width: 100%
         padding: 1px
         padding-inline: 50px
 
     .beatboxer
         margin-bottom: 15px
-        width: 450px
+        max-width: 500px
+        @include mixins.PC
+            min-width: 480px
+        
 
     .apresentation
         font-family: v.$font

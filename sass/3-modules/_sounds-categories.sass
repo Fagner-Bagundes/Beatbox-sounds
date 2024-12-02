@@ -1,5 +1,5 @@
 @use '../1-base/_variables' as v
-@use '../1-base/_breakPoints'
+@use '../1-base/_breakPoints' as m
     
 .categories-container
     max-width: 500px
@@ -7,6 +7,8 @@
     display: flex
     flex-direction: column
     gap: 2px
+
+    @include m.PC
     button
         font-size: 1.2em
         font-family: v.$font
