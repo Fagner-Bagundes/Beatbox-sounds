@@ -1,0 +1,33 @@
+@use '../1-base/_variables' as v
+@use '../1-base/_breakPoints'
+
+
+.MIDI
+    background-color: red
+    margin-top: 40px
+    text-align: center
+    padding: 10px
+    color: white
+
+    width: 50%
+    border-radius: 25px
+    background-color: v.$very-dark-blue
+ 
+    h1
+        padding: 5px
+    .botoes
+       
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+
+        .arrow-left
+            transform: rotate(180deg)
+
+        .arrow
+            width: 50px
+            height: 50px
+        img
+            width: 70%
+            border-radius: 25px
